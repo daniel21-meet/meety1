@@ -1,0 +1,23 @@
+
+h1 {
+	color: green;
+	text-align: center;
+}
+#ab {
+	color: #66ff66;
+	text-align:center;
+}	
+.sale {
+	color : red;
+	margin-top: -30px;
+}
+body {
+	background-image: url("download.jpg");
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+
+#f {
+	font-size: 75px;
+	margin-top:-30px;
+}
