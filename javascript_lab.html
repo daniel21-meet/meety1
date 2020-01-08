@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> my first webpage </title>
+
+</head>
+<body>
+
+	<script> var birthyear = prompt("what year you were born in?");
+
+	birthyear = parseInt(birthyear);
+
+	var lucky_number = prompt ("what is your lucky number?");
+
+	lucky_number = parseInt (lucky_number);
+
+	var favFruit = prompt("what is your favorite fruit?");
+
+	var favSubject = prompt("what is your favorite subject?");
+
+	document.write ( "the reminder of the division of your birth year and lucky number is: " +birthyear%lucky_number); 
+	
+	document.write("<br>");
+
+	document.write ("the total of your birthyear and age is: " + (birthyear + lucky_number));
+
+	document.write("<br>");
+
+	document.write("the value of your birthyear and favSubject is: " + (birthyear + favSubject));
+	
+	document.write("<br>");
+
+	document.write ("the value of your birthyear and age and favFruit is: " + (birthyear + lucky_number + favFruit));
+	
+	document.write("<br>");
+
+	document.write ("the value of your birthyear and age and favSubject is: " + (birthyear + lucky_number + favFruit + favSubject));
+	
+
+	</script>
+	
+
+	<script> console.log("Hello, world"); </script>
+
+</body>
+</html>
